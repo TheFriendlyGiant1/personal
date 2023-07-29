@@ -54,3 +54,12 @@ loadTests()
     .catch((error) => {
         console.error("Error occurred during test execution:", error);
     });
+
+// Example 2 usage:
+loadTests()
+    .then(() => {
+        console.log("All tests completed");
+    })
+    .catch((error) => {
+        console.error("Error occurred during test execution:", error);
+    });
